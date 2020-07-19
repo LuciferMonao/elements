@@ -349,7 +349,7 @@ for (let key in board) {
         if (game) {
             if (player == "player1") {
                 if (key.indexOf("o") != -1) {
-                    let thing = key
+                    let thing = key;
                     if (board[thing].state == false) {
                         click(element);
                         turn();
@@ -357,7 +357,7 @@ for (let key in board) {
                 }
             } else if (player == "player2") {
                 if (key.indexOf("p") != -1) {
-                    let thing = key
+                    let thing = key;
                     if (board[thing].state == false) {
                         click(element);
                         turn();
