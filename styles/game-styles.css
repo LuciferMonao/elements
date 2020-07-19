@@ -1,0 +1,28 @@
+.already-full {
+    width: 8.6%!important;
+    height: 46.5%!important;
+    display: inline-block!important;
+    margin: 0.5% 0.5%!important;
+    background-color: white!important;
+    cursor: default!important;
+}
+
+.green {
+    background-color: green!important;
+    background-image: none!important;
+}
+
+.red {
+    background-color: red!important;
+    background-image: none!important;
+}
+
+.blue {
+    background-color: blue!important;
+    background-image: none!important;
+}
+
+.lightblue {
+    background-color: rgb(86, 181, 212)!important;
+    background-image: none!important;
+}

@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rainbow {
+    /* Font options */
+    font-family: "Pacifico", cursive;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 5vw;
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation: rainbow 10s infinite;
+
+    /* Internet Explorer */
+    -ms-animation: rainbow 10s infinite;
+
+    /* Standar Syntax */
+    animation: rainbow 10s infinite;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+        to top right,
+        green,
+        blue,
+        lightblue,
+        red
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    background-color: gray;
+    height: 7vw;
+}
+
+#gamebox > div {
+    width: 8.6%;
+    height: 46.5%;
+    background-color: white;
+    display: inline-block;
+    margin: 0.5% 0.5%;
+}
+
+#gamebox {
+    white-space: nowrap;
+    position: absolute;
+    top: 10vw;
+    bottom: 10vw;
+    width: 100%;
+}
+
+#p0:hover,
+#p1:hover,
+#p2:hover,
+#p3:hover,
+#p4:hover,
+#p5:hover,
+#p6:hover,
+#p7:hover,
+#p8:hover,
+#p9:hover,
+#o0:hover,
+#o1:hover,
+#o2:hover,
+#o3:hover,
+#o4:hover,
+#o5:hover,
+#o6:hover,
+#o7:hover,
+#o8:hover,
+#o9:hover {
+    width: 9.2%;
+    height: 47.3%;
+    background-color: gray;
+    display: inline-block;
+    margin: 0.165% 0.165%;
+    cursor: pointer;
+}
+
+#game-left {
+    position: fixed;
+    display: inline-block;
+    bottom: 10%;
+    left: 35%;
+    font-size: 4vw;
+    cursor: pointer;
+}
+
+#game-right {
+    position: fixed;
+    display: inline-block;
+    bottom: 10%;
+    left: 45%;
+    font-size: 4vw;
+    cursor: pointer;
+}
+
+#expl {
+    position: absolute;
+    bottom: 2vw;
+    left: 1vw;
+    font-size: 1.5vw;
+}
+
+#h5 {
+    font-size: 7vw;
+    color: darkslategray;
+    position: absolute;
+    top: 20vw;
+    text-align: center;
+    cursor: pointer;
+    background-color: gray;
+    width: 100%;
+}
+
+#player-header {
+    position: absolute;
+    bottom: 4vw;
+    right: 1vw;
+    font-size: 1.5vw;
+}
+
+#player-field {
+    position: absolute;
+    bottom: 2vw;
+    right: 1vw;
+    font-size: 1.5vw;
+}
+
+.hidden {
+    opacity: 1 !important;
+    font-size: 0px !important;
+    height: 0px !important;
+    width: 0px !important;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow {
+    0% {
+        color: blue;
+    }
+    10% {
+        color: red;
+    }
+    20% {
+        color: green;
+    }
+    30% {
+        color: blue;
+    }
+    40% {
+        color: rgb(86, 181, 212);
+    }
+    50% {
+        color: green;
+    }
+    60% {
+        color: blue;
+    }
+    70% {
+        color: red;
+    }
+    80% {
+        color: green;
+    }
+    90% {
+        color: blue;
+    }
+    100% {
+        color: rgb(86, 181, 212);
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow {
+    0% {
+        color: blue;
+    }
+    10% {
+        color: red;
+    }
+    20% {
+        color: green;
+    }
+    30% {
+        color: blue;
+    }
+    40% {
+        color: rgb(86, 181, 212);
+    }
+    50% {
+        color: green;
+    }
+    60% {
+        color: blue;
+    }
+    70% {
+        color: red;
+    }
+    80% {
+        color: green;
+    }
+    90% {
+        color: blue;
+    }
+    100% {
+        color: rgb(86, 181, 212);
+    }
+}
+
+/* Standar Syntax */
+@keyframes rainbow {
+    0% {
+        color: blue;
+    }
+    10% {
+        color: red;
+    }
+    20% {
+        color: green;
+    }
+    30% {
+        color: blue;
+    }
+    40% {
+        color: rgb(86, 181, 212);
+    }
+    50% {
+        color: green;
+    }
+    60% {
+        color: blue;
+    }
+    70% {
+        color: red;
+    }
+    80% {
+        color: green;
+    }
+    90% {
+        color: blue;
+    }
+    100% {
+        color: rgb(86, 181, 212);
+    }
+}
